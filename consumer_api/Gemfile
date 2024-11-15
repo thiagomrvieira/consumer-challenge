@@ -6,7 +6,7 @@ ruby "3.2.2"
 
 # Core Rails dependencies
 gem 'rails', '7.2.0'
-gem "puma", "~> 5.0"
+gem "puma", "~> 6.0"
 
 # Database adapters
 gem "activerecord-sqlserver-adapter"
@@ -14,6 +14,7 @@ gem "mongoid"
 
 # Background processing
 gem "sidekiq"
+gem 'redis'
 
 # Performance optimization
 gem "bootsnap", require: false
