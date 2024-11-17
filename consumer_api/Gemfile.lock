@@ -223,6 +223,7 @@ DEPENDENCIES
   rails (= 7.2.0)
   redis
   sidekiq
+  tiny_tds
   tzinfo-data
 
 RUBY VERSION

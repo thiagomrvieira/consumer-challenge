@@ -1,0 +1,3 @@
+/consumer_api/log/*
+/consumer_api/tmp/*
+/consumer-ui/node_modules
