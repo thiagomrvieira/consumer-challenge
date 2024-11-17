@@ -15,6 +15,7 @@ gem "mongoid"
 
 # Background processing
 gem "sidekiq"
+gem 'sidekiq-status'
 gem 'redis'
 
 # Performance optimization
