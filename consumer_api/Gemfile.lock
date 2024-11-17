@@ -109,6 +109,8 @@ GEM
     marcel (1.0.4)
     mini_mime (1.1.5)
     minitest (5.25.1)
+    mocha (2.5.0)
+      ruby2_keywords (>= 0.0.5)
     mongo (2.21.0)
       bson (>= 4.14.1, < 6.0.0)
     mongoid (9.0.3)
@@ -188,6 +190,7 @@ GEM
       connection_pool
     reline (0.5.11)
       io-console (~> 0.5)
+    ruby2_keywords (0.0.5)
     securerandom (0.3.2)
     sidekiq (7.3.5)
       connection_pool (>= 2.3.0)
@@ -218,6 +221,7 @@ DEPENDENCIES
   activerecord-sqlserver-adapter
   bootsnap
   debug
+  mocha
   mongoid
   puma (~> 6.0)
   rails (= 7.2.0)

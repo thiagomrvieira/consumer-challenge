@@ -1,0 +1,26 @@
+one:
+  product_id: "PROD001"
+  product_name: "iPhone 14 Pro"
+  product_category_id: "SMARTPHONES"
+  country: "BR"
+  shop_name: "Fast Shop"
+  price: 5999.99
+  url: "https://fastshop.com.br/iphone-14-pro"
+
+two:
+  product_id: "PROD002"
+  product_name: "Samsung Galaxy S23"
+  product_category_id: "SMARTPHONES"
+  country: "BR"
+  shop_name: "Magazine Luiza"
+  price: 4999.99
+  url: "https://magazineluiza.com.br/galaxy-s23"
+
+three:
+  product_id: "PROD003"
+  product_name: "MacBook Pro M2"
+  product_category_id: "NOTEBOOKS"
+  country: "US"
+  shop_name: "Best Buy"
+  price: 1299.99
+  url: "https://bestbuy.com/macbook-pro-m2"

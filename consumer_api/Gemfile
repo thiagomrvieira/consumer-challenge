@@ -25,6 +25,7 @@ gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 
 # Development and Testing
 group :development, :test do
+  gem 'mocha', require: false
   gem "debug", platforms: %i[mri mingw x64_mingw]
 end
 
