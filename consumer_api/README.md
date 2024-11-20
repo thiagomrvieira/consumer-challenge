@@ -30,19 +30,19 @@ This will return page 2 with 5 products per page.
 The API response includes the data array with the products and a meta object containing pagination information:
 ```bash
 data: [
-	{
-		id: 2,
-		product_id: "110816",
-		brand: "BOSAL",
-		product_name: "COMFORT PRO II",
-		product_category_id: "572",
-		country: "belgium",
-		shop_name: "QUALITY-SHOPS AMAZON.PT",
-		price: 513,
-		url: "https://www.amazon.com.be/BOSAL-Trekhaak-fietsendrager-500-002-trekhaak/dp/B09QRB86JN?language=fr_BE&tag=testachats22-21",
-		created_at: "2024-11-20T12:39:20.656Z",
-		updated_at: "2024-11-20T18:43:19.410Z"
-	}
+{
+	id: 2,
+	product_id: "110816",
+	brand: "BOSAL",
+	product_name: "COMFORT PRO II",
+	product_category_id: "572",
+	country: "belgium",
+	shop_name: "QUALITY-SHOPS AMAZON.PT",
+	price: 513,
+	url: "https://www.amazon.com.be/BOSAL-Trekhaak-fietsendrager-500-002-trekhaak/dp/B09QRB86JN?language=fr_BE&tag=testachats22-21",
+	created_at: "2024-11-20T12:39:20.656Z",
+	updated_at: "2024-11-20T18:43:19.410Z"
+}
 ],
 meta: {
 	current_page: 1,
