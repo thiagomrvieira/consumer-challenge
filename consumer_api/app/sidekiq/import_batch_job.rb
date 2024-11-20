@@ -4,7 +4,7 @@ class ImportBatchJob < ApplicationJob
   def perform(batch)
     batch.each do |record|
       next unless record['availability'] && record['price'].to_f > 0
-      normalized_data = normalize_data(record)
+      normalized_data = DataNormalizer.call(record)
 
       process_mongo(normalized_data)
       process_sql(normalized_data)
@@ -55,27 +55,5 @@ class ImportBatchJob < ApplicationJob
         current_time, current_time
       ])
     )
-  end
-
-  def normalize_data(record)
-    shop_name = record['ismarketplace'] ? record['marketplaceseller'] : record['site']
-
-    {
-      country: normalize_string(record['country']),
-      brand: record['brand'],
-      product_id: record['sku'],
-      product_name: record['model'],
-      shop_name: normalize_string(shop_name),
-      product_category_id: record['categoryId'],
-      price: record['price'].to_f,
-      url: record['url']
-    }
-  end
-
-  def normalize_string(string)
-    return string unless string
-    string = string.gsub(/\s+\b(be|nl|fr|us|de|uk|br|es|pt)\b(?=\s|$)/i, ' ').strip
-    string = string.gsub(/\s+/, ' ')
-    string.strip
   end
 end
