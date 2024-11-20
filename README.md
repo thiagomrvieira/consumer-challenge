@@ -23,5 +23,5 @@ React projects commonly use kebab-case for directory names, especially in fronte
 * Consistency and Best Practices: Following standard naming practices improves consistency and maintains industry standards, which is beneficial for team collaboration and future maintenance.
 
 # API Documentation
-For more details on how to use the backend API, including pagination and other endpoints, refer to the [https://github.com/thiagomrvieira/consumer-challenge/tree/main/consumer_api#readme](API README)
+For more details on how to use the backend API, including pagination and other endpoints, refer to the [API README](https://github.com/thiagomrvieira/consumer-challenge/tree/main/consumer_api#readme)
 .
