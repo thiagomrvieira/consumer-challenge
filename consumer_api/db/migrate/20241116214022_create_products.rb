@@ -2,6 +2,7 @@ class CreateProducts < ActiveRecord::Migration[7.2]
   def change
     create_table :products do |t|
       t.string :product_id
+      t.string :brand
       t.string :product_name
       t.string :product_category_id
       t.string :country
@@ -12,6 +13,6 @@ class CreateProducts < ActiveRecord::Migration[7.2]
       t.timestamps
     end
 
-    add_index :products, [:country, :product_id, :shop_name], unique: true
+    add_index :products, [:country, :product_id, :shop_name], unique: true, name: 'idx_products_unique_constraint'
   end
 end

@@ -16,7 +16,7 @@ gem "mongoid"
 # Background processing
 gem "sidekiq"
 gem 'sidekiq-status'
-gem 'redis'
+gem 'redis', '~> 5.0'
 
 # Performance optimization
 gem "bootsnap", require: false

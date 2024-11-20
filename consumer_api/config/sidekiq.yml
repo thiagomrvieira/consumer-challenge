@@ -1,5 +1,7 @@
-:concurrency: 50
+:concurrency: 25
 :queues:
   - default
-  - imports
+  - file_import
   - critical
+:redis:
+  url: redis://localhost:6379/0

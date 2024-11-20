@@ -5,6 +5,7 @@ class ProductMongo
   include Validatable
 
   field :product_id, type: String
+  field :brand, type: String
   field :product_name, type: String
   field :product_category_id, type: String
   field :country, type: String

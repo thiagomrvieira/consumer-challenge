@@ -5,7 +5,7 @@ default: &default
   username: sa
   password: Complex@123
   timeout: 5000
-  pool: 5
+  pool: 50
 
 development:
   <<: *default

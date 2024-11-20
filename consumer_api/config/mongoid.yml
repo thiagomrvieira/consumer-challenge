@@ -5,6 +5,8 @@ development:
       hosts:
         - localhost:27017
       options:
+        pool_size: 50
+        timeout: 30
   driver_options:
 
 test:

@@ -255,7 +255,7 @@ DEPENDENCIES
   mongoid
   puma (~> 6.0)
   rails (= 7.2.0)
-  redis
+  redis (~> 5.0)
   rspec-rails
   sidekiq
   sidekiq-status
