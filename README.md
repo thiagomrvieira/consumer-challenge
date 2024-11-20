@@ -24,4 +24,13 @@ React projects commonly use kebab-case for directory names, especially in fronte
 
 # API Documentation
 For more details on how to use the backend API, including pagination and other endpoints, refer to the [API README](https://github.com/thiagomrvieira/consumer-challenge/tree/main/consumer_api#readme)
-.
+
+# TODO
+Here are the features and tasks that are still pending implementation:
+
+### API
+* Filter: Implement the filtering functionality in the API for products based on various attributes (e.g., brand, price, product_id).
+* Improve Data Import System with Sidekiq: Enhance the data import process by integrating Sidekiq for better background job handling.
+
+### UI
+* Implementation: Develop the frontend UI for displaying and interacting with the products, utilizing the API for fetching and filtering data.
